@@ -1,7 +1,7 @@
 etdisu
 =========
 
-This project is a commandline tool that transforms ProQuest XML files into BePress compatible metadata.
+Etdisu is a command-line tool that transforms ProQuest XML files into BePress compatible metadata.
 
 Prerequisites
 -------------
@@ -31,9 +31,8 @@ Running the above command will result in two files: invalidmajors.csv and outfil
 
 ### invalidmajors.csv
 
-Any data in this file is a warning that some of the metadata is not in the authority file.  To change or update
-the authority file, you can modify [ListofMajors.csv](https://github.com/wryan14/etdisu/blob/master/etdisu/data/ListofMajors.csv) located in the data folder of the project.
+The *invalidmajor* file records any confilct between the input records and the list of majors found in the project's authority file.  To change or update the authority file, you can modify the [ListofMajors.csv](https://github.com/wryan14/etdisu/blob/master/etdisu/data/ListofMajors.csv) located in the data folder of this project.
 
 ### outfile.xml
 
-The outfile.xml contains the BePress compatible metadata.  Please note that the transformation is based on an XSLT script put together for Iowa State, so you may need to modify or replace this project's [ProQuest XSLT script](https://github.com/wryan14/etdisu/blob/master/etdisu/data/proquest_transform.xsl)
+The output, outfile.xml, contains the BePress compatible metadata.  Please note that the transformation is based on an XSLT script put together for Iowa State, so you may need to modify or replace this project's [ProQuest XSLT script](https://github.com/wryan14/etdisu/blob/master/etdisu/data/proquest_transform.xsl).

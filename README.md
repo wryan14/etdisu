@@ -14,7 +14,7 @@ Getting Started
 
 ``` {.sourceCode .console}
 $ git clone https://github.com/wryan14/etdisu.git
-$ cd etd
+$ cd etdisu
 $ pip install .
 ```
 

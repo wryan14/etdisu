@@ -1,0 +1,4 @@
+include README.rst
+include saxon9.jar
+include data/*.csv
+include data/*.xsl

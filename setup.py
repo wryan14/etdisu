@@ -9,6 +9,6 @@ setup(name='etdisu',
       packages=['etdisu'],
       package_data={'etdisu': ['*.csv', 'data/*.csv',
                                '*.xsl', 'data/*.xsl', '*.jar']},
-      install_requires=['lxml==4.5.0', 'numpy==1.18.1', 'pandas==1.0.1',
+      install_requires=['lxml==4.6.3', 'numpy==1.18.1', 'pandas==1.0.1',
                         'pathlib==1.0.1', 'pdfminer.six==20200124'],
       )
